@@ -1,4 +1,4 @@
-# ClarityAI
+# ProFileAI
 
 AI-powered resume analyzer that scores your resume against any job description, identifies gaps, matches ATS keywords, and generates tailored cover letters.
 
