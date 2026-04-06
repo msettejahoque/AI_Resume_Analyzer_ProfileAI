@@ -53,3 +53,13 @@ export interface JobApplication {
   created_at: string;
 }
 
+
+export interface InterviewQuestion {
+  question: string;
+  category: string;
+  suggested_answer: string;
+}
+
+export interface InterviewPrep {
+  questions: InterviewQuestion[];
+}

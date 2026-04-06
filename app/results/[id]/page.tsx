@@ -8,6 +8,7 @@ import { Separator } from '@/components/ui/separator';
 import CopyButton from '@/components/shared/CopyButton';
 import { Analysis } from '@/types';
 import { getScoreColor } from '@/lib/utilities/score';
+import InterviewPrepSection from '@/components/dashboard/InterviewPrep';
 
 function getScoreLabel(score: number): string {
   if (score >= 90) return 'Excellent Match';
@@ -384,6 +385,13 @@ export default async function ResultsPage({
           </p>
         </CardContent>
       </Card>
+
+      {/* Interview Preparation */}
+      
+<InterviewPrepSection
+  resumeText={typedAnalysis.resume_text}
+  jobDescription={typedAnalysis.job_description}
+/>
 
       {/* Bottom CTA */}
       <div className="flex flex-col sm:flex-row gap-3 justify-center pb-8">
