@@ -1,6 +1,6 @@
 # ProFileAI
 
-AI-powered resume analyzer that scores your resume against any job description, identifies gaps, matches ATS keywords, and generates tailored cover letters.
+AI-powered resume analyzer that scores your resume against any job description, identifies gaps, matches ATS keywords, and generates tailored cover letters & interview questions.
 
 🔗 **Live:** 
 
@@ -17,6 +17,7 @@ AI-powered resume analyzer that scores your resume against any job description, 
 - **Job Application Tracker** — Track applications with status, notes, and important links
 - **PDF Resume Upload** — Upload your resume as a PDF or paste text directly
 - **Analysis History** — Revisit all your past analyses anytime
+- **Interview Question** - Generates 10 interview question from your resume
 
 ---
 
@@ -28,10 +29,10 @@ AI-powered resume analyzer that scores your resume against any job description, 
 | Language | TypeScript |
 | Styling | Tailwind CSS v4 |
 | Database | Supabase (PostgreSQL) |
-| Authentication | Supabase Auth (Email, Google, GitHub) |
+| Authentication | Supabase Auth (Email)|
 | AI | Google Gemini 2.5 Flash |
 | UI Components | shadcn/ui |
-| Deployment | Vercel |
+
 
 ---
 
@@ -44,7 +45,7 @@ AI-powered resume analyzer that scores your resume against any job description, 
 
 ### Installation
 ```bash
-git clone https://github.com/prio12/ClarityAI.git
+git clone <git https url>
 cd clarityai
 npm install
 ```
@@ -136,7 +137,3 @@ clarityai/
 ```
 
 ---
-
-## License
-
-MIT
